@@ -2,6 +2,8 @@
 __author__ = "Niel Patel"
 
 # Problem number 1
+from site import main
+
 print("Collin went to the bank to deposit some money."
       "The bank teller gave him 25 $20 dollar bills."
       "How much money does collin have in total?")
@@ -89,9 +91,14 @@ print(boolean_value)
 strs = ['welcome', 'to', 'my', 'python', 'project']
 
 
-def join_strs(strs):
+def join_strs(str):
+    """
+
+    :param str: 
+    :return: 
+    """
     result = ''
-    for s in strs:
+    for s in str:
         result += ' ' + s
     return result[1:]
 
